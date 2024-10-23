@@ -6,3 +6,134 @@
     text-decoration: none;
     list-style: none;
 }
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.781);
+    position: fixed;
+    padding: 35px 10%;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    backdrop-filter: blur(10px);
+}
+.logo{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: deeppink;
+    text-shadow: 0 0 25px deeppink,
+                 0 0 50px deeppink;
+    transform: scale(1.1);
+}
+span{
+    color: deeppink;
+}
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0 15px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover, 
+.navbar a.active{
+    color: deeppink;
+    border-bottom: 3px solid deeppink;
+}
+.contact{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 18px;
+    transition: 0.3s ease;
+    background-color: white;
+    transition: 0.3s ease;
+    letter-spacing: 1;
+}
+.contact:hover{
+    background-color: deeppink;
+    color: white;
+    box-shadow: 0 0 25px deeppink;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 35px 10% 0;
+    justify-content: space-between;
+}
+.home-content{
+    max-width: 800px;
+    flex: 1;
+}
+.home-content h3{
+    font-size: 40px;
+}
+.home-content h1{
+    font-size: 60px;
+    line-height: 1.2;
+}
+.home-content p{
+    font-size: 22px;
+    margin: 25px 0 30px;
+}
+.btn-box{
+    display: flex;
+    width: 345px;
+    gap: 2em;
+}
+.btn-a{
+    padding: 15px 25px;
+    border: 2px solid transparent;
+    border-radius: 13px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-a:hover{
+    background-color: deeppink;
+    border: 2px solid deeppink;
+    color: white;
+}
+.btn-b{
+    padding: 15px 25px;
+    border: 2px solid black;
+    border-radius: 13px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: deeppink;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-b:hover{
+    background-color: black;
+    color: white;
+}
+.img-box{
+    width: 550px;
+    border-radius: 60%;
+}
+.img-box img{
+    width: 100%;
+    border-radius: 60%;
+    transform: scaleX(-1);
+}
