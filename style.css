@@ -137,3 +137,49 @@ span{
     border-radius: 60%;
     transform: scaleX(-1);
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: deeppink;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+    border-radius: 10px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15% 8%;
+    gap: 10em;
+    background: rgba(0, 0, 0);
+}
+.about-img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px deeppink,
+                0 0 50px deeppink;
+    border-radius: 60%;
+}
+.about-img img{
+    width: 100%;
+    border-radius: 60%;
+    height: auto;
+}
+.about-content h2{ 
+    text-align: left;
+    color: white;
+    font-size: 40px;
+}
+.about-content h3{
+    font-size: 60px;
+    color: white;
+}
+.about-content p{
+    color: white;
+    font-size: 20px;
+    margin: 25px 0 30px;
+}
